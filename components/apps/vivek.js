@@ -55,28 +55,26 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about vivek" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about yash" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="yash' education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="yash' skills" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="yash' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="vivek's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
-                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe>
-                </div>
+
             </>
         );
     }
@@ -117,17 +115,17 @@ function About() {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Vivek Patel</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Frontend Engineer!</span></div>
+                <div>My name is <span className="font-bold">Yash Buddhadev</span> ,</div>
+                <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI/ML Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Computer Science. I've completed my 6 month SWE intern at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}>HackerRank</a> </u>, and now I'm looking for full-time frontend engineer roles! ( Hit me up <a className='text-underline' href='mailto:vivek.p9737@gmail.com'><u>@vivek.p9737@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
+                <li className=" list-pc">I'm an <span className=" font-medium">undergraduate student</span> currently pursuing B.Tech in AI & DS. I've completed my 2 month PM summer internship at <u className=' cursor-pointer '> <a href="https://www.infiheal.com/" target={"_blank"}>Infiheal</a> </u>, along with being a Mozilla Research Fellow at <u className=' cursor-pointer '> <a href="https://simppl.org/" target={"_blank"}>SimPPL,</a> </u>and now I'm looking for full-time roles! (Hit me up <a className='text-underline' href='mailto:yash.buddhadev@djsce.edu.in'><u>yash.buddhadev@djsce.edu.in</u></a> (:))</li>
+                <li className=" mt-3 list-building"> I enjoy building stuff that solve real-world problems.</li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://youtu.be/qB8mBoOHOXc?si=M03EdGKsoD7q1yfu" target="_blank" rel="noreferrer"> Ed Sheeran's music.</a></li>
                 <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
             </ul>
         </>
@@ -146,27 +144,27 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Arizona State University
+                        SVKM's Dwarkadas J. Sanghvi College Of Engineering
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2022 - 2024</div>
-                    <div className=" text-sm md:text-base">Computer Science</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 4.0/4.0</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2022 - 2026</div>
+                    <div className=" text-sm md:text-base">Artificial Intelligence and Data Science</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 9.10/10.00</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Pandit Deendayal Energy University - PDEU
+                        Prakash College Of Science and Commerce (Mindsetters)
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.35/10</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2022</div>
+                    <div className=" text-sm md:text-base">HSC and MHT-CET</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">PERCENTILE &nbsp; 94.05</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (GSEB)
+                        Rustomjee International School
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-                    <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2007 - 2020</div>
+                    <div className=" text-sm md:text-base">SSC</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">PERCENTAGE &nbsp; 93.80%</div>
                 </li>
             </ul>
         </>
@@ -187,7 +185,7 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development, React.js & javascript!</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">LLM's, Automation-Models and Analytical arenas.</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -234,94 +232,39 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/vivek9patel/vivek9patel.github.io",
+            name: "SmartSure by INNOV8",
+            date: "August 2024",
+            link: "https://github.com/buddhadevyash/INNOV8-HumanAIze-FintechEdition",
             description: [
-                "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+                "Winner at HumanAIze <FinTech Edition> for Revolutionizing Insurance theme.",
             ],
-            domains: ["javascript", "next.js", "tailwindcss"]
+            domains: ["Artificial Intelligence", "Machine Learning", "Data Science"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+            name: "Serenity by UI/UX Unicorns",
+            date: "March 2024",
+            link: "https://www.figma.com/file/D5ztYYYUqd01nStiVXDsXQ/TechBlitz?type=design&node-id=0-1&mode=design&t=xz5oSM6jKVwrTC2u-0",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "Winner at VCET TechBlitz 2024",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Figma", "UI/UX Design"]
+            
         },
         {
-            name: "CodeConnect",
-            date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
+            name: "F1 Forecasts by BestiesOfSyntax",
+            date: "June 2024",
+            link: "https://github.com/buddhadevyash/BestiesOfSyntax-F1Analyze",
             description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+                "Finalist at F1Analyze Datathon.",
             ],
-            domains: ["javascript", "tailwindcss"]
+            domains: ["Data Science", "Machine Learning"]
         },
-        {
-            name: "Ad Free Spotify",
-            date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
-            description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
-            description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
-            description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-            ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
-        },
-        {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-            ],
-            domains: ["react-native", "javascript"]
-        },
-        {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
-            description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
-            ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
-        },
-        {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
-            description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-            ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
-        },
-        {
-            name: "Cleanliness Automation",
-            date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-            ],
-        }
+    
+     
+    
+ 
+   
+
     ];
 
     const tag_colors = {
@@ -352,8 +295,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
-
+           
             {
                 project_list.map((project, index) => {
                     const projectNameFromLink = project.link.split('/')
@@ -398,6 +340,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/YASH_BUDDHADEV_CV_1.pdf" title="vivek patel resume" frameBorder="0"></iframe>
     )
 }
