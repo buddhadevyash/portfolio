@@ -56,7 +56,7 @@ export class Terminal extends Component {
             <React.Fragment key={id}>
                 <div className="flex w-full h-5">
                     <div className="flex">
-                        <div className=" text-ubt-green">vivek@Dell</div>
+                        <div className=" text-ubt-green">yash@Acer</div>
                         <div className="text-white mx-px font-medium">:</div>
                         <div className=" text-ubt-blue">{this.current_directory}</div>
                         <div className="text-white mx-px font-medium mr-1">$</div>
@@ -239,7 +239,7 @@ export class Terminal extends Component {
                 break;
             case "pwd":
                 let str = this.current_directory;
-                result = str.replace("~", "/home/vivek")
+                result = str.replace("~", "/home/yash")
                 break;
             case "code":
                 if (words[0] === "." || words.length === 0) {
@@ -279,9 +279,9 @@ export class Terminal extends Component {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-vivek, todoist, trash, settings, sendmsg ]";
                 }
                 break;
-            case "about-vivek":
+            case "about-yash":
                 if (words[0] === "." || words.length === 0) {
-                    this.props.openApp("about-vivek");
+                    this.props.openApp("about-yash");
                 } else {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-vivek, todoist, trash, settings, sendmsg ]";
                 }

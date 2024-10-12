@@ -4,8 +4,8 @@ import { displayTerminal } from './components/apps/terminal';
 import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
-import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayContactMe } from './components/apps/gedit';
+import { displayAboutYash } from './components/apps/yash';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -28,13 +28,13 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-yash",
+        title: "About Yash",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
-        screen: displayAboutVivek,
+        screen: displayAboutYash,
     },
     {
         id: "vscode",
@@ -88,7 +88,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayGedit,
+        screen: displayContactMe,
     },
 ]
 

@@ -5,9 +5,9 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Vivek Patel Portfolio - Computer Engineering Student</title>
+            <title>Yash Buddhadev's Portfolio</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Vivek Patel Portfolio - Computer Engineering Student" />
+            <meta name="title" content="Yash Buddhadev's Portfolio" />
             <meta name="description"
                 content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="author" content="Vivek Patel (vivek9patel)" />
@@ -20,12 +20,12 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             /* Search Engine */
-            <meta name="image" content="images/logos/fevicon.png" />
+            <meta name="image" content="" />
             /* Schema.org for Google */
             <meta itemProp="name" content="Vivek Patel Portfolio - Computer Engineering Student" />
             <meta itemProp="description"
                 content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta itemProp="image" content="images/logos/fevicon.png" />
+            <meta itemProp="image" content="" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Vivek Patel Portfolio - Computer Engineering Student" />
@@ -33,19 +33,19 @@ export default function Meta() {
                 content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="twitter:site" content="vivek9patel" />
             <meta name="twitter:creator" content="vivek9patel" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="twitter:image:src" content="images/logos/y.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Vivek Patel Portfolio - Computer Engineering Student" />
             <meta name="og:description"
                 content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="images/logos/y.png" />
             <meta name="og:url" content="http://vivek9patel.github.io/" />
             <meta name="og:site_name" content="Vivek Patel Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
-            <link rel="icon" href="images/logos/fevicon.svg" />
-            <link rel="apple-touch-icon" href="images/logos/logo.png" />
+            <link rel="icon" href="images/logos/y.png" />
+            <link rel="apple-touch-icon" href="images/logos/y.png" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
         </Head>
