@@ -115,7 +115,7 @@ function About() {
                 <img className="w-40" src="./images/logos/y.png" alt="Yash Patel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>My name is <span className="font-bold">Yash Buddhadev</span> ,</div>
+                <div>My name is <span className="font-bold">Yash Buddhadev</span>,</div>
                 <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI/ML Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
