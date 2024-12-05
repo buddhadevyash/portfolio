@@ -125,7 +125,7 @@ function About() {
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm an <span className=" font-medium">undergraduate student</span> currently pursuing B.Tech in AI & DS. I've completed my 2 month PM summer internship at <u className=' cursor-pointer '> <a href="https://www.infiheal.com/" target={"_blank"}>Infiheal</a> </u>, along with being a Mozilla Research Fellow at <u className=' cursor-pointer '> <a href="https://simppl.org/" target={"_blank"}>SimPPL,</a> </u>and now I'm looking for full-time roles! </li>
                 <li className=" mt-3 list-building"> I enjoy building stuff that solve real-world problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://youtu.be/qB8mBoOHOXc?si=M03EdGKsoD7q1yfu" target="_blank" rel="noreferrer"> Ed Sheeran's music.</a></li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://youtu.be/qB8mBoOHOXc?si=M03EdGKsoD7q1yfu" target="_blank" rel="noreferrer"> Ed Sheeran play music.</a></li>
                 <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
             </ul>
         </>
